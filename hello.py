@@ -1,1 +1,3 @@
-print('hello world')
+class Hello:
+    def say(self):
+        return "hello world"
