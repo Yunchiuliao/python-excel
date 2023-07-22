@@ -2,10 +2,10 @@ import numpy as np
 import pandas as pd
 
 class Store:
-    def __init__(self) -> None:
+    def __init__(self):
         self.sheet = self.loadData()
 
-    def loadData(self):
+    def loadData(self) -> pd.DataFrame:
         df = pd.read_excel('store.xlsx')
         return df
     
